@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kiet · Cotton77</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Space+Grotesk:wght@400;500;600&display=swap">
+<style>
+/* Identitat «Nit» de Kiet (D16): document llegible, una columna, accent llima només a la marca i als enllaços. */
+:root {
+  --bg: #F6F7F5; --surface: #FFFFFF; --ink: #161B1F; --muted: #56606A; --line: #D9DEE2; --accent: #4A7609; --mark: #4A7609;
+  --font-body: "Space Grotesk", system-ui, sans-serif; --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #0F1317; --surface: #141A1F; --ink: #E8ECEF; --muted: #9AA4AC; --line: #26313A; --accent: #C8F169; --mark: #C8F169; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #0F1317; --surface: #141A1F; --ink: #E8ECEF; --muted: #9AA4AC; --line: #26313A; --accent: #C8F169; --mark: #C8F169; color-scheme: dark }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.6 var(--font-body); padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 64px; }
+.wrap { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+.brand { display: flex; align-items: center; gap: 12px; font-weight: 600; font-size: 22px; letter-spacing: .18em; text-transform: uppercase; }
+.brand svg { width: 28px; height: 28px; }
+.brand .frame { fill: none; stroke: var(--ink); }
+.brand .lit { fill: var(--mark); }
+nav { display: flex; gap: 4px; padding: 3px; border: 1px solid var(--line); border-radius: 999px; }
+nav button { font: 500 14px var(--font-body); color: var(--muted); background: none; border: 0; padding: 6px 14px; border-radius: 999px; cursor: pointer; }
+nav button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+nav button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1 { font-size: 34px; line-height: 1.15; font-weight: 600; text-wrap: balance; margin: 0; }
+.meta { font: 500 13px var(--font-mono); color: var(--muted); margin-top: 8px; }
+.lead { font-size: 19px; padding: 18px 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; margin: 0; }
+section { display: flex; flex-direction: column; gap: 10px; }
+h2 { font-size: 15px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0; }
+p, ul { margin: 0; }
+ul { padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+a { color: var(--ink); text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.mail { font-family: var(--font-mono); font-size: 15px; user-select: all; }
+footer { font: 500 13px var(--font-mono); color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><div class="brand"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect class="frame" x="1.5" y="1.5" width="37" height="37" rx="6" fill="none" stroke-width="3"/><rect class="lit" x="9.42" y="3.75" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="26.42" y="3.75" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="9.42" y="9.42" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="20.75" y="9.42" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="9.42" y="15.08" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="15.08" y="15.08" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="9.42" y="20.75" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="15.08" y="20.75" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="9.42" y="26.42" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="20.75" y="26.42" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="9.42" y="32.08" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="26.42" y="32.08" width="4.17" height="4.17" rx="0.8"/></svg>Kiet</div></header>
+  <p class="lead">Kiet is a collection of logic puzzles for Android: nonogram, sudoku, takuzu and hashi, with a new daily puzzle of each every day. Made by Cotton77.</p>
+  <section><h2>Links</h2><ul><li><a href="privacy/">Privacy Policy</a> · <a href="privacy/#ca">Política de privacitat</a> · <a href="privacy/#es">Política de privacidad</a></li></ul></section>
+  <section><h2>Contact</h2><p><span class="mail">cotton77.games@gmail.com</span></p></section>
+  <footer>Kiet · Cotton77</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kiet Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Space+Grotesk:wght@400;500;600&display=swap">
+<style>
+/* Identitat «Nit» de Kiet (D16): document llegible, una columna, accent llima només a la marca i als enllaços. */
+:root {
+  --bg: #F6F7F5; --surface: #FFFFFF; --ink: #161B1F; --muted: #56606A; --line: #D9DEE2; --accent: #4A7609; --mark: #4A7609;
+  --font-body: "Space Grotesk", system-ui, sans-serif; --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #0F1317; --surface: #141A1F; --ink: #E8ECEF; --muted: #9AA4AC; --line: #26313A; --accent: #C8F169; --mark: #C8F169; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #0F1317; --surface: #141A1F; --ink: #E8ECEF; --muted: #9AA4AC; --line: #26313A; --accent: #C8F169; --mark: #C8F169; color-scheme: dark }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.6 var(--font-body); padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 64px; }
+.wrap { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+.brand { display: flex; align-items: center; gap: 12px; font-weight: 600; font-size: 22px; letter-spacing: .18em; text-transform: uppercase; }
+.brand svg { width: 28px; height: 28px; }
+.brand .frame { fill: none; stroke: var(--ink); }
+.brand .lit { fill: var(--mark); }
+nav { display: flex; gap: 4px; padding: 3px; border: 1px solid var(--line); border-radius: 999px; }
+nav button { font: 500 14px var(--font-body); color: var(--muted); background: none; border: 0; padding: 6px 14px; border-radius: 999px; cursor: pointer; }
+nav button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+nav button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1 { font-size: 34px; line-height: 1.15; font-weight: 600; text-wrap: balance; margin: 0; }
+.meta { font: 500 13px var(--font-mono); color: var(--muted); margin-top: 8px; }
+.lead { font-size: 19px; padding: 18px 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; margin: 0; }
+section { display: flex; flex-direction: column; gap: 10px; }
+h2 { font-size: 15px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0; }
+p, ul { margin: 0; }
+ul { padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+a { color: var(--ink); text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.mail { font-family: var(--font-mono); font-size: 15px; user-select: all; }
+footer { font: 500 13px var(--font-mono); color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect class="frame" x="1.5" y="1.5" width="37" height="37" rx="6" fill="none" stroke-width="3"/><rect class="lit" x="9.42" y="3.75" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="26.42" y="3.75" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="9.42" y="9.42" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="20.75" y="9.42" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="9.42" y="15.08" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="15.08" y="15.08" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="9.42" y="20.75" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="15.08" y="20.75" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="9.42" y="26.42" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="20.75" y="26.42" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="9.42" y="32.08" width="4.17" height="4.17" rx="0.8"/><rect class="lit" x="26.42" y="32.08" width="4.17" height="4.17" rx="0.8"/></svg>Kiet</div>
+    <nav aria-label="Language">
+      <button type="button" id="b-en" data-l="en" aria-pressed="true">English</button>
+      <button type="button" id="b-ca" data-l="ca" aria-pressed="false">Català</button>
+      <button type="button" id="b-es" data-l="es" aria-pressed="false">Español</button>
+    </nav>
+  </header>
+
+  <article lang="en" data-l="en">
+    <div class="wrap">
+      <div><h1>Privacy Policy</h1><p class="meta">Effective 28 October 2026 · Kiet for Android</p></div>
+      <p class="lead">Kiet asks for no account and no personal details. Your games and progress stay on your device. Data only leaves it through Google's ads (a short ad between games every few games, and the videos you choose to watch), through Google Play and RevenueCat (when you buy “No ads”), and as anonymous usage statistics.</p>
+      <section><h2>Who is responsible</h2><p>Kiet is developed by Cotton77. For any question or request about your data, write to <span class="mail">cotton77.games@gmail.com</span>.</p></section>
+      <section><h2>Data stored on your device</h2><p>Your puzzles in progress, results, statistics, achievements, settings and whether you own “No ads” are saved only on your device. We do not receive them. Uninstalling the app or clearing its data deletes them. If you have Android backup turned on, they are included in your own device backup (managed by Google under your account), so you can recover them on a new phone. The optional daily reminder is scheduled on your device and sends nothing.</p></section>
+      <section><h2>Ads (Google AdMob)</h2>
+        <p>Kiet shows no banners. A short ad appears between games every 3 games, never during a game, and a short video plays when you choose it, to see a hint or unlock an older daily puzzle. “No ads” removes them all. To serve and measure these ads and to prevent fraud, Google's Mobile Ads SDK collects and shares with Google:</p>
+        <ul><li>your IP address, which may be used to estimate your general location;</li><li>interactions with ads, such as views and taps;</li><li>diagnostic information about app and SDK performance;</li><li>device identifiers: the Android advertising ID and the app set ID.</li></ul>
+        <p>In the European Economic Area, the United Kingdom and Switzerland, Google's consent message appears before the first ad, and you can change your choice at any time in Settings → Ad privacy. You can reset or delete your advertising ID in your device's Android settings. Learn more in <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses information from apps that use its services</a>.</p></section>
+      <section><h2>Purchases (Google Play and RevenueCat)</h2><p>Payments are processed by Google Play; we never see your card details. To confirm and restore your purchase, RevenueCat receives your purchase history, an anonymous app user ID, and your language and currency. See the <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat privacy policy</a>.</p></section>
+      <section><h2>Anonymous usage statistics (Aptabase)</h2><p>To learn which puzzles are played and where the app can improve, Kiet sends a few anonymous events to Aptabase, on servers in Germany: app opened, tutorial finished, puzzle started and solved (type, level and number of hints), hint unlocked, video watched and purchase made. Each event also carries the app version, the operating system, the device model, the language, and the country and region, which Aptabase estimates from the IP address without storing it. No device identifier, advertising ID or account is collected, and the events cannot be linked to you. See the <a href="https://aptabase.com/legal/privacy" target="_blank" rel="noopener">Aptabase privacy policy</a>.</p></section>
+      <section><h2>Children</h2><p>Kiet is not directed at children under 13, and we do not knowingly collect their data.</p></section>
+      <section><h2>Your rights</h2><p>You can ask to access, correct or delete your data, or object to its use, by writing to the address above. To delete purchase records held by RevenueCat, tell us and we will delete them. In the EU you can also complain to your data protection authority (in Spain, the AEPD).</p></section>
+      <section><h2>Changes</h2><p>If this policy changes, we will publish the new version here with a new effective date.</p></section>
+    </div>
+  </article>
+
+  <article lang="ca" data-l="ca" hidden>
+    <div class="wrap">
+      <div><h1>Política de privacitat</h1><p class="meta">Vigent des del 28 d'octubre de 2026 · Kiet per a Android</p></div>
+      <p class="lead">Kiet no et demana cap compte ni cap dada personal. Les teves partides i el teu progrés es queden al teu dispositiu. Només en surten dades a través dels anuncis de Google (un anunci curt entre partides de tant en tant i els vídeos que tries veure), de Google Play i RevenueCat (quan compres «Sense anuncis») i com a estadístiques d'ús anònimes.</p>
+      <section><h2>Qui n'és responsable</h2><p>Kiet la desenvolupa Cotton77. Per a qualsevol pregunta o petició sobre les teves dades, escriu a <span class="mail">cotton77.games@gmail.com</span>.</p></section>
+      <section><h2>Dades que es desen al dispositiu</h2><p>Les partides a mig fer, els resultats, les estadístiques, les fites, els ajustos i si tens «Sense anuncis» es desen només al teu dispositiu. Nosaltres no els rebem. Si desinstal·les l'app o n'esborres les dades, s'eliminen. Si tens activada la còpia de seguretat d'Android, s'inclouen a la còpia del teu dispositiu (la gestiona Google al teu compte), i així les pots recuperar en un mòbil nou. El recordatori del diari, si l'actives, el programa el teu mòbil i no envia res.</p></section>
+      <section><h2>Anuncis (Google AdMob)</h2>
+        <p>Kiet no mostra bàners. Cada 3 partides surt un anunci curt entre partides, mai durant la partida, i un vídeo curt surt quan tu el tries, per veure una pista o desbloquejar un diari antic. «Sense anuncis» els treu tots. Per mostrar i mesurar aquests anuncis i per evitar fraus, l'SDK d'anuncis per a mòbils de Google recull i comparteix amb Google:</p>
+        <ul><li>la teva adreça IP, que es pot fer servir per estimar la teva ubicació aproximada;</li><li>les interaccions amb els anuncis, com visualitzacions i tocs;</li><li>informació de diagnòstic sobre el rendiment de l'app i de l'SDK;</li><li>identificadors del dispositiu: l'identificador de publicitat d'Android i l'identificador del conjunt d'apps.</li></ul>
+        <p>A l'Espai Econòmic Europeu, el Regne Unit i Suïssa, abans del primer anunci surt el missatge de consentiment de Google, i pots canviar la teva elecció quan vulguis a Ajustos → Privacitat dels anuncis. Pots restablir o eliminar l'identificador de publicitat als ajustos d'Android del dispositiu. Més informació sobre <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">com fa servir Google la informació de les apps que utilitzen els seus serveis</a>.</p></section>
+      <section><h2>Compres (Google Play i RevenueCat)</h2><p>Els pagaments els processa Google Play; nosaltres no veiem mai les dades de la teva targeta. Per confirmar i restaurar la compra, RevenueCat rep l'historial de compres, un identificador anònim de l'app, i el teu idioma i moneda. Consulta la <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">política de privacitat de RevenueCat</a>.</p></section>
+      <section><h2>Estadístiques d'ús anònimes (Aptabase)</h2><p>Per saber quins puzzles es juguen i què podem millorar, Kiet envia uns quants esdeveniments anònims a Aptabase, amb servidors a Alemanya: app oberta, tutorial acabat, puzzle començat i resolt (tipus, nivell i nombre de pistes), pista desbloquejada, vídeo vist i compra feta. Cada esdeveniment porta també la versió de l'app, el sistema operatiu, el model del dispositiu, l'idioma, i el país i la regió, que Aptabase estima a partir de l'adreça IP sense desar-la. No es recull cap identificador del dispositiu, ni l'identificador de publicitat, ni cap compte, i els esdeveniments no es poden relacionar amb tu. Consulta la <a href="https://aptabase.com/legal/privacy" target="_blank" rel="noopener">política de privacitat d'Aptabase</a>.</p></section>
+      <section><h2>Menors</h2><p>Kiet no s'adreça a infants de menys de 13 anys, i no en recollim dades de manera conscient.</p></section>
+      <section><h2>Els teus drets</h2><p>Pots demanar accedir a les teves dades, rectificar-les, suprimir-les o oposar-te al seu ús escrivint a l'adreça de dalt. Si vols que s'esborrin els registres de compra que té RevenueCat, digues-nos-ho i els esborrarem. A la UE també pots reclamar a l'autoritat de protecció de dades (a Espanya, l'AEPD).</p></section>
+      <section><h2>Canvis</h2><p>Si aquesta política canvia, en publicarem aquí la versió nova amb la data de vigència nova.</p></section>
+    </div>
+  </article>
+
+  <article lang="es" data-l="es" hidden>
+    <div class="wrap">
+      <div><h1>Política de privacidad</h1><p class="meta">Vigente desde el 28 de octubre de 2026 · Kiet para Android</p></div>
+      <p class="lead">Kiet no te pide ninguna cuenta ni ningún dato personal. Tus partidas y tu progreso se quedan en tu dispositivo. Solo salen datos a través de los anuncios de Google (un anuncio corto entre partidas de vez en cuando y los vídeos que eliges ver), de Google Play y RevenueCat (cuando compras «Sin anuncios») y como estadísticas de uso anónimas.</p>
+      <section><h2>Responsable</h2><p>Kiet la desarrolla Cotton77. Para cualquier pregunta o solicitud sobre tus datos, escribe a <span class="mail">cotton77.games@gmail.com</span>.</p></section>
+      <section><h2>Datos guardados en el dispositivo</h2><p>Las partidas a medias, los resultados, las estadísticas, los logros, los ajustes y si tienes «Sin anuncios» se guardan solo en tu dispositivo. Nosotros no los recibimos. Si desinstalas la app o borras sus datos, se eliminan. Si tienes activada la copia de seguridad de Android, se incluyen en la copia de tu dispositivo (la gestiona Google en tu cuenta), y así puedes recuperarlos en un móvil nuevo. El recordatorio del diario, si lo activas, lo programa tu móvil y no envía nada.</p></section>
+      <section><h2>Anuncios (Google AdMob)</h2>
+        <p>Kiet no muestra banners. Cada 3 partidas aparece un anuncio corto entre partidas, nunca durante la partida, y un vídeo corto aparece cuando tú lo eliges, para ver una pista o desbloquear un diario antiguo. «Sin anuncios» los quita todos. Para mostrar y medir estos anuncios y evitar fraudes, el SDK de anuncios para móviles de Google recoge y comparte con Google:</p>
+        <ul><li>tu dirección IP, que puede usarse para estimar tu ubicación aproximada;</li><li>las interacciones con los anuncios, como visualizaciones y toques;</li><li>información de diagnóstico sobre el rendimiento de la app y del SDK;</li><li>identificadores del dispositivo: el ID de publicidad de Android y el ID del conjunto de apps.</li></ul>
+        <p>En el Espacio Económico Europeo, el Reino Unido y Suiza, antes del primer anuncio aparece el mensaje de consentimiento de Google, y puedes cambiar tu elección cuando quieras en Ajustes → Privacidad de los anuncios. Puedes restablecer o eliminar el ID de publicidad en los ajustes de Android del dispositivo. Más información sobre <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">cómo usa Google la información de las apps que utilizan sus servicios</a>.</p></section>
+      <section><h2>Compras (Google Play y RevenueCat)</h2><p>Los pagos los procesa Google Play; nosotros nunca vemos los datos de tu tarjeta. Para confirmar y restaurar la compra, RevenueCat recibe el historial de compras, un identificador anónimo de la app, y tu idioma y moneda. Consulta la <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">política de privacidad de RevenueCat</a>.</p></section>
+      <section><h2>Estadísticas de uso anónimas (Aptabase)</h2><p>Para saber qué puzles se juegan y qué podemos mejorar, Kiet envía unos pocos eventos anónimos a Aptabase, con servidores en Alemania: app abierta, tutorial terminado, puzle empezado y resuelto (tipo, nivel y número de pistas), pista desbloqueada, vídeo visto y compra hecha. Cada evento lleva también la versión de la app, el sistema operativo, el modelo del dispositivo, el idioma, y el país y la región, que Aptabase estima a partir de la dirección IP sin guardarla. No se recoge ningún identificador del dispositivo, ni el ID de publicidad, ni ninguna cuenta, y los eventos no se pueden relacionar contigo. Consulta la <a href="https://aptabase.com/legal/privacy" target="_blank" rel="noopener">política de privacidad de Aptabase</a>.</p></section>
+      <section><h2>Menores</h2><p>Kiet no está dirigida a menores de 13 años, y no recogemos sus datos de forma consciente.</p></section>
+      <section><h2>Tus derechos</h2><p>Puedes pedir acceder a tus datos, rectificarlos, suprimirlos u oponerte a su uso escribiendo a la dirección de arriba. Si quieres que se borren los registros de compra que tiene RevenueCat, dínoslo y los borraremos. En la UE también puedes reclamar ante la autoridad de protección de datos (en España, la AEPD).</p></section>
+      <section><h2>Cambios</h2><p>Si esta política cambia, publicaremos aquí la nueva versión con la nueva fecha de vigencia.</p></section>
+    </div>
+  </article>
+
+  <footer>Kiet · Cotton77</footer>
+</div>
+
+<script>
+(function () {
+  const langs = ['en', 'ca', 'es'];
+  function show(l) {
+    if (!langs.includes(l)) l = 'en';
+    document.querySelectorAll('article').forEach(a => { a.hidden = a.dataset.l !== l; });
+    document.querySelectorAll('nav button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.l === l)));
+    document.documentElement.lang = l;
+  }
+  document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => show(b.dataset.l)));
+  const h = (location.hash || '').slice(1);
+  const nav = (navigator.language || 'en').slice(0, 2);
+  show(langs.includes(h) ? h : langs.includes(nav) ? nav : 'en');
+})();
+</script>
+
+</body>
+</html>
